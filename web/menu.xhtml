@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+        <h:outputStylesheet library="css" name="bootstrap.css"/>
+        <h:outputStylesheet library="css" name="dashboard.css"/>
+        <h:outputStylesheet library="js" name="jquery.js"/>
+        <h:outputStylesheet library="js" name="bootstrap.js"/>
+        <meta name="viewport" content="width=device-width, inicial-scale=1"></meta>
+        
+    </h:head>
+    <h:body>
+        <h:form prependId="false">
+            <h:panelGrid columns="1">
+                <h:commandLink action="pessoas">Crud Pessoas</h:commandLink>
+                <h:commandLink action="carros">Crud Carros</h:commandLink>
+                <h:commandLink action="empresas">Crud Empresas</h:commandLink>
+                <h:commandLink action="funcionarios">Crud Funcionarios</h:commandLink>
+                <h:commandLink action="produtos">Crud Produtos</h:commandLink>
+                <h:commandLink action="salas">Crud Salas</h:commandLink>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>
+
