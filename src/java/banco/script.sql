@@ -1,7 +1,8 @@
-create table sala(
+create table navio(
     id int not null auto_increment,
-    placa varchar(20),
-    marca varchar(50),
-    modelo varchar(100),
+    nome varchar(20),
+    tamanho double,
+    nro_passageiros int(10),
+    nacionalidade varchar(20),
     primary key (id)
 )engine = InnoDB;
